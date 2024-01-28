@@ -1,0 +1,270 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-family: "Montserrat", sans-serif;
+}
+.welcome_line {
+  background-color: #1a355a;
+  color: white;
+  padding: 10px 0px;
+}
+
+.navbar_items .nav-link {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.find_Dealer {
+  font-size: 16px;
+  color: #c03545;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero {
+  background: url(./backgroundHero.png);
+  min-height: calc(100vh - 102.5px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h2_hero {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.hero_text {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.support_line {
+  background: #c03545;
+}
+
+.support_line p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.support_line .portions {
+  border-right: 2px solid white;
+}
+
+.type {
+  background: url(./type_bg.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.type h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-5px);
+}
+.type a {
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.type h2:before,
+.dealer h2:before {
+  position: absolute;
+  content: url(./underline.png);
+  height: 100%;
+  width: 100%;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first_about {
+  background: url(./about_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+}
+
+.about h2:before {
+  position: absolute;
+  content: url(./about_underline.png);
+  height: 100%;
+  width: 100%;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 45ch;
+}
+
+.dealer {
+  background: linear-gradient(
+      to right,
+      rgba(192, 53, 69, 0.8),
+      rgba(192, 53, 69, 0.8)
+    ),
+    url(./dealer2.png);
+  background-color: rgb(192, 53, 69);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dealer h2 {
+  position: relative;
+}
+.dealer p {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.dealer h2 p {
+  margin-bottom: 0px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  /* Whiie */
+  color: #ffffff;
+}
+
+/* Style for the input container */
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the input field */
+.input-field {
+  width: 367px;
+  border: none;
+  border-bottom: 2px solid white; /* White bottom border */
+  background: transparent; /* Transparent background */
+  color: white; /* Text color */
+  outline: none; /* Remove default input outline */
+  font-size: 20px;
+  padding: 10px 0px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Style for the search icon */
+.search-icon {
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+/* Style for the placeholder text */
+.input-field::placeholder {
+  color: white;
+}
+
+/* Remove default styles for the search input */
+.input-field:focus,
+.input-field:active,
+.input-field:hover {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #1a355a;
+}
+
+.footer .logo_text {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 45ch;
+}
+.footer .lists .list_heading {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.list_items_footer {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.list_items_footer a{
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .dealer h2 p {
+    font-size: 24px;
+  }
+}

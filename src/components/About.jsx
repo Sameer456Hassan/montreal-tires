@@ -12,13 +12,12 @@ const About = () => {
               we’re your trusted partners on the road.
             </p>
             <p className="ms-md-5">
-              With a passion for delivering top-notch tire solutions, we have
-              been serving for over a decade.
+              With a passion for delivering top-notch tire solutions, we have been serving for over
+              a decade.
             </p>
             <p className="ms-md-5">
-              Discover the <strong>MONTREAL TIRES</strong> difference today,
-              where Quality, Reliability and Customer Satisfaction drive
-              everything we do.
+              Discover the <strong>MONTREAL TIRES</strong> difference today, where Quality,
+              Reliability and Customer Satisfaction drive everything we do.
             </p>
             <div className="buttons mt-5 d-flex ms-md-5">
               <button className="btn me-2">

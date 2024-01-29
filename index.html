@@ -21,6 +21,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    
+    <script>
+            // ...
+      plugins: [
+          // other plugins,
+          new webpack.ProvidePlugin({
+              $: 'jquery',
+              jQuery: 'jquery',
+              'window.jQuery': 'jquery'
+          }),
+      ],
+      //...
+    </script>
   </body>
 </html>

@@ -3,7 +3,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   background-color: #f8f9fa;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .welcome_line {
   background-color: #1a355a;
@@ -43,7 +43,25 @@ body {
   text-align: left;
   margin-top: 0px;
 }
+.transparent-text {
+  margin: auto;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 78px;
+}
 
+.slick-dots button {
+  width: 56px !important;
+  height: 4px !important;
+  color: white !important;
+}
+.slick-dots button:before {
+  width: 56px !important;
+  height: 4px !important;
+  color: white !important;
+}
 .hero_text {
   font-size: 14px;
   color: white;
@@ -72,7 +90,7 @@ body {
 
 .type {
   background: url(./type_bg.png);
-  min-height: 100vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -149,11 +167,7 @@ body {
 }
 
 .dealer {
-  background: linear-gradient(
-      to right,
-      rgba(192, 53, 69, 0.8),
-      rgba(192, 53, 69, 0.8)
-    ),
+  background: linear-gradient(to right, rgba(192, 53, 69, 0.8), rgba(192, 53, 69, 0.8)),
     url(./dealer2.png);
   background-color: rgb(192, 53, 69);
 
@@ -258,13 +272,63 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-.list_items_footer a{
+.list_items_footer a {
   color: white;
   text-decoration: none;
 }
 
+.owl_image {
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  height: 400px;
+}
+
+.carousel-indicators {
+  bottom: -100px;
+}
+
+.discover_btn {
+  background: url(./back_btn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: left;
+}
+
+.join_btn,
+.read_btn {
+  background: url(./back_btn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 80px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: left;
+}
+
+.read_btn {
+  background: url(./read_btn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #c03545;
+}
+
 @media only screen and (max-width: 600px) {
-  .dealer h2 p {
-    font-size: 24px;
+  .dealer h2 p,
+  .type h2 {
+    font-size: 21px;
+  }
+  .input-field {
+    width: 300px;
+    font-size: 18px;
   }
 }
